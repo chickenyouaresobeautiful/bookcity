@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bookcity:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/bookcity_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="bookcity/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bookcity" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="library" level="module" name="JUnit5.8.1" module-name="bookcity" />
+          <element id="library" level="project" name="servlet-api" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
